@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/swp-search",
+  "version": "0.1.0",
+  "title": "Bwp Search",
+  "category": "widgets",
+  "description": "ghghgh",
+  "example": {},
+  "attributes": {
+    "message": {
+      "type": "string",
+      "source": "text",
+      "selector": "div"
+    },
+    "text_color": {
+      "type": "string"
+    },
+    "text_size": {
+      "type": "string"
+    },
+    "is_bold": {
+      "type": "boolean"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "swp-search",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

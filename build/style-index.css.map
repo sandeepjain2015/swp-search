@@ -1,0 +1,1 @@
+{"version":3,"file":"./style-index.css","mappings":";;;AAAA;EACI;AACJ,C","sources":["webpack://swp-search/./src/style.scss"],"sourcesContent":[".wp-block-create-block-swp-search{\n    font-size: 64px;\n    \n}"],"names":[],"sourceRoot":""}
